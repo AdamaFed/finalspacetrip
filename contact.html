@@ -11,6 +11,19 @@
     />
   </head>
   <body>
+    <div class="header">
+      <nav id="navBar">
+        <img src="images/logo2.png" class="logo" />
+        <ul class="nav-items">
+          <li><a href="index.html">Start</a></li>
+          <li><a href="reiseziele.html" class="selected">Reiseziele</a></li>
+          <li><a href="contact.html">Kontakt</a></li>
+          <li><a href="ueber.html">Über</a></li>
+        </ul>
+        <!-- <a href="#" class="buchen">Jetzt Buchen</a> -->
+        <i class="fa-solid fa-bars" onclick="togglebtn()"></i>
+      </nav>
+    </div>
     <section class="kontakt">
       <div class="inhalt">
         <h2>Kontaktiere uns</h2>
@@ -64,5 +77,12 @@
         </div>
       </div>
     </section>
+
+    <script>
+      var navBar = document.getElementById('navBar');
+      function togglebtn() {
+        navBar.classList.toggle('hide');
+      }
+    </script>
   </body>
 </html>
