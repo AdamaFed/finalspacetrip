@@ -8,7 +8,7 @@ body{
     background-color: black;
     height: calc(100vh + 400px);
     user-select: none;
-    background-image: url("resources/saturn-soft.png");
+    background-image: url("../images/saturn-soft.png");
     background-repeat: no-repeat;
     background-size: 70%;
     background-position: calc(-80%) calc(70%);

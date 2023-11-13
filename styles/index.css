@@ -10,7 +10,7 @@ body {
   background-color: black;
   height: 100vh;
   user-select: none;
-  background-image: url('resources/trip.gif');
+  background-image: url('../images/trip.gif');
   background-repeat: no-repeat;
   background-size: 50%;
   background-position: 80% 50%;
