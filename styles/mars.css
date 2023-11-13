@@ -276,8 +276,9 @@ nav .fa-bars {
 
   .buchen {
     position: absolute;
-    top: 17%;
-    right: 10%;
+    top: 25%;
+    /* right: 17%; */
+    left: 5%;
   }
 
   .selected::after {
